@@ -1,11 +1,11 @@
-# Enhanced main.py with improved crawling capabilities and site-specific configurations
+# main.py with improved crawling capabilities and site-specific configurations
 
 import threading
 import multiprocessing
 import time
 import logging
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor, as_completed
-from enhanced_fetcher import (
+from fetcher import (
     read_urls_from_file,
     fetch_robots_txt,
     extract_sitemaps_from_robots,
@@ -185,9 +185,9 @@ def process_urls_threaded(urls, max_workers=5, crawl_html=False, use_custom_conf
     return all_data
 
 
-def main(url_file, use_multiprocessing=False, max_workers=5, crawl_html=False, 
+def main(url_file, use_multiprocessing=False, max_workers=5, crawl_html=False,
          use_custom_configs=False, specific_sites_config=None, crawl_all_sites=False):
-    """Main function with enhanced crawling capabilities."""
+    """Main function with improved crawling capabilities."""
     try:
         urls = read_urls_from_file(url_file)
         if not urls:

@@ -1,10 +1,10 @@
-# Enhanced News Bot with MongoDB Integration
+# News Bot with MongoDB Integration
 
 An advanced news crawler that strengthens crawling capabilities by targeting specific sites with custom selectors. Features sophisticated crawling of both sitemap.xml files and regular HTML pages, with MongoDB integration for efficient data storage and analysis.
 
 ## Features
 
-- **Enhanced Crawling**: Crawls both sitemap.xml files and regular HTML pages
+- **Advanced Crawling**: Crawls both sitemap.xml files and regular HTML pages
 - **Targeted Site Crawling**: Uses custom selectors for specific news sites
 - **Flexible Configuration**: Support for custom site configurations
 - **Multithreading/Multiprocessing**: Concurrent processing for optimal performance
@@ -51,12 +51,12 @@ Custom selectors for different sites are defined in `site_configs.py`. The bot i
 
 ### Basic Usage
 ```bash
-python enhanced_main.py
+python main.py
 ```
 
 ### Configuration Options
 
-The script can be configured by modifying these variables in `enhanced_main.py`:
+The script can be configured by modifying these variables in `main.py`:
 
 - `use_multiprocessing`: Use multiprocessing instead of multithreading (default: False)
 - `crawl_html_content`: Crawl HTML content in addition to sitemaps (default: True)

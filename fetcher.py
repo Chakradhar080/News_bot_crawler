@@ -1,5 +1,5 @@
 """
-Enhanced fetcher module with improved crawling capabilities for both sitemap and regular web pages.
+Fetcher module with improved crawling capabilities for both sitemap and regular web pages.
 """
 
 import requests

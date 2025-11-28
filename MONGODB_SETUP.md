@@ -98,13 +98,12 @@ Once you have data in your collection, you can run queries like:
   { "source_type": "html_content" }
   ```
 
-### 9. Running the Enhanced Crawler
+### 9. Running the News Bot Crawler
 
-To run the enhanced crawler with MongoDB integration:
+To run the news bot crawler with MongoDB integration:
 
 ```bash
-cd test4
-python enhanced_main.py
+python main.py
 ```
 
 The crawler will now:
