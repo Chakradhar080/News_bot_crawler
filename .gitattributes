@@ -1,0 +1,8 @@
+# Handle line endings
+* text=auto
+
+# Force specific files to use LF
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+Dockerfile text eol=lf

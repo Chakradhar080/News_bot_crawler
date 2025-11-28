@@ -1,0 +1,3 @@
+
+# Run the Python script at 5 AM every day
+0 5 * * * /usr/local/bin/python /home/news_bot/test4/main.py >> /var/log/cron.log 2>&1
